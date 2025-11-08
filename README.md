@@ -1,82 +1,109 @@
-<!-- 🌸 GitHub Profile README — Alexandra Otero Flores -->
-<h1 align="center">¡Hola, soy Alexandra Otero 🌷</h1>
-<h3 align="center">Economista | Especialista Estadística | Evaluaciones de Impacto y Género</h3>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/alexandra-otero-flores-31937214a/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Alexandra%20Otero%20Flores-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:aleotero27@gmail.com">
-    <img src="https://img.shields.io/badge/Correo%20electrónico-aleotero27@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>
-</p>
 
 ---
 
-### 🌍 Sobre mí
+## 👥 Poblaciones y módulos ENARES 2024
 
-Soy **economista** con más de dos años de experiencia en **evaluaciones de impacto, análisis de datos y gestión de información pública con enfoque de género**.  
-Actualmente colaboro con el **Ministerio de la Mujer y Poblaciones Vulnerables (MIMP)** y el **Programa Nacional de Vivienda Rural (PNVR)**, liderando productos estadísticos del **Observatorio Nacional de Violencia contra las Mujeres** y diseñando **tableros de datos, modelos predictivos y sistemas de información interinstitucional**.
-
-Mi trabajo combina **rigor técnico**, **gestión intersectorial** y una visión centrada en la **igualdad de género y la evidencia para la acción pública**.
-
----
-
-### 📊 Áreas de especialización
-
-- 📈 **Evaluaciones experimentales y cuasi-experimentales**  
-  Diseño metodológico, análisis estadístico y reportes técnicos.
-- 🧮 **Análisis econométrico y procesamiento de datos** (Stata, R, Python)
-- 🗂️ **Gestión y limpieza de bases masivas** (ENARES, ENDES, ENUT, registros administrativos)
-- 📊 **Tableros interactivos y visualización de datos** (Power BI, ggplot2, DAX)
-- 🧠 **Programación de encuestas** (SurveyCTO, ODK, KoboToolbox)
-- 👩‍💼 **Gestión de equipos de campo y control de calidad**
-- 🌱 **Diseño de indicadores con enfoque de género y derechos humanos**
+| Módulo | Población objetivo | Temática principal |
+|--------|--------------------|--------------------|
+| **CRS01** | Mujeres de 18+ años | Violencia por pareja, acoso y dependencia económica |
+| **CRS02** | Hombres y mujeres de 18+ años | Tolerancia social y creencias sexistas |
+| **CRS03** | Niñas y niños 9–11 años | Violencia en hogar y escuela |
+| **CRS04** | Adolescentes 12–17 años | Violencia en hogar, escuela y sexual |
 
 ---
 
-### 🚀 Proyectos destacados
+## 📊 Indicadores oficiales ENARES 2024
 
-- **Observatorio Nacional de Violencia (Ley 30364):**  
-  Desarrollo de tableros trimestrales, boletines estadísticos y planes de mejora de datos junto al Ministerio Público, Poder Judicial y MININTER.
+### 🟣 Módulo CRS01 – Mujeres de 18 años a más
 
-- **Observatorio de Acoso Político (Ley 31155):**  
-  Consolidación de registros administrativos, elaboración de boletines y análisis sobre violencia política hacia las mujeres.
-
-- **Programa Nacional de Vivienda Rural – PNVR (MVCS):**  
-  Diseño y programación de cuestionarios SurveyCTO, monitoreo de campo y análisis de línea de base/final de intervenciones rurales.
-
----
-
-### 🛠️ Tecnologías y herramientas
-
-| Lenguajes | Análisis y Visualización | Recolección | Colaboración |
-|------------|--------------------------|--------------|---------------|
-| Stata • R • Python | Power BI • Excel avanzado • DAX | SurveyCTO • ODK • KoboToolbox | GitHub • Google Drive • Trello |
+| Código | Descripción |
+|--------|--------------|
+| **8.2.1** | Violencia psicológica por pareja/expareja (últimos 12 meses) |
+| **8.2.2** | Violencia física por pareja/expareja (últimos 12 meses) |
+| **8.2.3** | Violencia sexual por pareja/expareja (últimos 12 meses) |
+| **8.2.5** | Violencia física severa por pareja/expareja |
+| **8.2.6** | Violencia sexual por agresor distinto a la pareja |
+| **8.2.12** | Acoso sexual por agresor distinto a la pareja |
+| **8.3.1** | Mujeres que en la niñez experimentaron violencia interparental |
+| **8.3.13** | Hombres que justifican la violencia sexual contra las mujeres |
+| **8.3.16** | Mujeres bajo dependencia económica de su pareja/expareja |
+| **8.3.4** | Madres que ejercen castigo físico/psicológico a hijas/os < 6 años |
 
 ---
 
-### 🎓 Formación y desarrollo
+### 🔵 Módulo CRS02 – Hombres y mujeres de 18 años a más
 
-- Licenciada en **Economía**  
-- Formación en **Evaluaciones de Impacto (DIME, J-PAL, BID)**  
-- Cursos en **Machine Learning aplicado a políticas públicas**, **análisis de encuestas**, y **género en políticas sociales**  
-- Postulación 2025 al **Government Analytics Fellowship – World Bank**
-
----
-
-### 💡 Filosofía de trabajo
-
-> “Los datos no solo deben informar: deben transformar.  
-> Mi propósito es que la evidencia estadística contribuya a decisiones públicas más justas y con perspectiva de género.”
+| Código | Descripción |
+|--------|--------------|
+| **8.3.2** | Hombres que vivieron violencia interparental en la niñez |
+| **8.3.7** | Hombres que justifican la violación sexual contra las mujeres |
+| **8.3.12** | Personas que toleran la violencia contra las mujeres |
+| **8.3.14** | Personas que aprueban creencias sexistas |
+| **8.3.15** | Personas que aprueban actitudes sexistas |
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alexandraotero&show_icons=true&theme=rose_pine" alt="Alexandra's GitHub stats" />
-</p>
+### 🟢 Módulo CRS03 – Niñas y niños de 9 a 11 años
 
-<p align="center">
-  <i>✨ Siempre buscando conectar evidencia, innovación y equidad ✨</i>
-</p>
+| Código | Descripción |
+|--------|--------------|
+| **8.3.5** | Violencia física o psicológica ejercida por madre/padre |
+| **8.3.8** | Víctimas de violencia escolar (por compañero/a u otro alumno/a) |
+| **8.3.10** | Niñas y niños que ejercen violencia escolar contra otros/as |
 
+---
+
+### 🟠 Módulo CRS04 – Adolescentes de 12 a 17 años
+
+| Código | Descripción |
+|--------|--------------|
+| **8.2.7** | Adolescentes mujeres víctimas de violencia sexual (no pareja) |
+| **8.2.11** | Adolescentes mujeres víctimas de violencia sexual antes de los 12 años |
+| **8.2.13** | Adolescentes mujeres víctimas de acoso sexual (no pareja) |
+| **8.3.6** | Violencia física o psicológica ejercida por madre/padre |
+| **8.3.9** | Adolescentes víctimas de violencia escolar |
+| **8.3.11** | Adolescentes hombres que ejercen violencia escolar |
+
+---
+
+## ⚙️ Cómo usar las sintaxis
+
+1. Abrir **Stata 16+**.  
+2. Configurar la ruta de trabajo (`global root`).  
+3. Ejecutar el archivo `.do` del módulo CRS correspondiente.  
+4. Los resultados se guardan automáticamente en `/outputs/`.  
+5. Puedes combinar las bases para generar tablas o dashboards.
+
+---
+
+## 📈 Visualización interactiva
+
+Consulta los resultados en Power BI:  
+👉 **[Tablero de Indicadores ENARES 2024 – PPoR 1002](https://app.powerbi.com/view?r=eyJrIjoiZDE4ZDg4MjAtNzRjMC00MGY5LTk3MjAtNGRhOTAxNDQ2NGNiIiwidCI6IjY4MTljNDYzLTVkZWItNDA3MC1hY2I2LTlmZGQzY2FhZTk4NCJ9)**  
+
+---
+
+## 🧠 Metodología base
+
+- **Fuente:** ENARES 2024 – INEI  
+- **Periodo de referencia:** Últimos 12 meses (excepto violencia antes de los 12 años)  
+- **Cobertura:** Nacional, urbano/rural y departamental  
+- **Unidades de análisis:** Mujeres (18+), hombres (18+), niñas/os (9–11), adolescentes (12–17)  
+- **Ponderación:** Factor de expansión `fac_pob`
+
+---
+
+## 📚 Referencias
+
+- **INEI (2025)** – *Informe de los Principales Resultados de la ENARES 2024.*  
+- **MIMP (2025)** – *Programa Presupuestal orientado en Resultados: Reducción de la Violencia contra la Mujer.*  
+- **Ley 30364** – Ley para prevenir, sancionar y erradicar la violencia contra las mujeres y los integrantes del grupo familiar.  
+
+---
+
+## 💬 Frase que nos guía
+
+> “Los datos no solo describen la violencia: ayudan a prevenirla.”  
+> — *Alexandra Otero Flores* 🌸
+
+---
