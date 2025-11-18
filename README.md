@@ -12,57 +12,58 @@
 
 ---
 
-## 📊 Indicadores oficiales ENARES 2024
+# Indicadores oficiales ENARES – Valores 2015, 2019 y 2024
 
-### 🟣 Módulo CRS01 – Mujeres de 18 años a más
+## Módulo CRS01 – Mujeres de 18 años a más
 
-| Código | Descripción |
-|--------|--------------|
-| **8.2.1** | Violencia psicológica por pareja/expareja (últimos 12 meses) |
-| **8.2.2** | Violencia física por pareja/expareja (últimos 12 meses) |
-| **8.2.3** | Violencia sexual por pareja/expareja (últimos 12 meses) |
-| **8.2.5** | Violencia física severa por pareja/expareja |
-| **8.2.6** | Violencia sexual por agresor distinto a la pareja |
-| **8.2.12** | Acoso sexual por agresor distinto a la pareja |
-| **8.3.1** | Mujeres que en la niñez experimentaron violencia interparental |
-| **8.3.13** | Hombres que justifican la violencia sexual contra las mujeres |
-| **8.3.16** | Mujeres bajo dependencia económica de su pareja/expareja |
-| **8.3.4** | Madres que ejercen castigo físico/psicológico a hijas/os < 6 años |
-
----
-
-### 🔵 Módulo CRS02 – Hombres y mujeres de 18 años a más
-
-| Código | Descripción |
-|--------|--------------|
-| **8.3.2** | Hombres que vivieron violencia interparental en la niñez |
-| **8.3.7** | Hombres que justifican la violación sexual contra las mujeres |
-| **8.3.12** | Personas que toleran la violencia contra las mujeres |
-| **8.3.14** | Personas que aprueban creencias sexistas |
-| **8.3.15** | Personas que aprueban actitudes sexistas |
+| Código | Indicador | 2015 | 2019 | 2024 | Nota de comparabilidad |
+|--------|-----------|-------|--------|--------|---------------------------|
+| 8.2.1 | Violencia psicológica por pareja/expareja (últimos 12 meses) | 23.5% | 19.4% | 14.1% | Comparable, incluye expareja |
+| 8.2.2 | Violencia física por pareja/expareja (últimos 12 meses) | 5.6% | 6.3% | 4.4% | No comparable |
+| 8.2.3 | Violencia sexual por pareja/expareja (últimos 12 meses) | 4.3% | 4.5% | 2.4% | No comparable |
+| 8.2.5 | Violencia física severa por pareja/expareja | N.D. | N.D. | 1.2% | No comparable |
+| 8.2.6 | Violencia sexual por agresor distinto a la pareja | N.D. | N.D. | 3.2% | No comparable |
+| 8.2.12 | Acoso sexual por agresor distinto a la pareja | N.D. | N.D. | 3.0% | No comparable |
+| 8.3.1 | Violencia interparental vivida por mujeres | N.D. | N.D. | 34.1% | No comparable |
+| 8.3.16 | Mujeres bajo dependencia económica de su pareja/expareja | N.D. | N.D. | 28.6% | No comparable |
+| 8.3.4 | Castigo físico/psicológico ejercido por la madre a niñas/os < 6 años | N.D. | N.D. | 29.7% | No comparable |
 
 ---
 
-### 🟢 Módulo CRS03 – Niñas y niños de 9 a 11 años
+## Módulo CRS02 – Hombres y mujeres de 18 años a más
 
-| Código | Descripción |
-|--------|--------------|
-| **8.3.5** | Violencia física o psicológica ejercida por madre/padre |
-| **8.3.8** | Víctimas de violencia escolar (por compañero/a u otro alumno/a) |
-| **8.3.10** | Niñas y niños que ejercen violencia escolar contra otros/as |
+| Código | Indicador | 2015 | 2019 | 2024 | Nota de comparabilidad |
+|--------|-----------|-------|--------|--------|---------------------------|
+| 8.3.2 | Hombres que vivieron violencia interparental | N.D. | N.D. | 34.0% | No comparable |
+| 8.3.7 | Hombres que justifican la violación sexual contra las mujeres | N.D. | N.D. | 56.5% | No comparable (crítico) |
+| 8.3.12 | Personas que toleran la violencia contra las mujeres | N.D. | N.D. | 75.7% | No comparable (crítico) |
+| 8.3.13 | Hombres que justifican la violencia sexual contra las mujeres | N.D. | N.D. | 69.7% | No comparable (crítico) |
+| 8.3.14 | Creencias sexistas aprobadas | N.D. | N.D. | 87.4% | No comparable (crítico) |
+| 8.3.15 | Actitudes sexistas aprobadas | N.D. | N.D. | 71.3% | No comparable (crítico) |
 
 ---
 
-### 🟠 Módulo CRS04 – Adolescentes de 12 a 17 años
+## Módulo CRS03 – Niñas y niños de 9 a 11 años
 
-| Código | Descripción |
-|--------|--------------|
-| **8.2.7** | Adolescentes mujeres víctimas de violencia sexual (no pareja) |
-| **8.2.11** | Adolescentes mujeres víctimas de violencia sexual antes de los 12 años |
-| **8.2.13** | Adolescentes mujeres víctimas de acoso sexual (no pareja) |
-| **8.3.6** | Violencia física o psicológica ejercida por madre/padre |
-| **8.3.9** | Adolescentes víctimas de violencia escolar |
-| **8.3.11** | Adolescentes hombres que ejercen violencia escolar |
+| Código | Indicador | 2015 | 2019 | 2024 | Nota de comparabilidad |
+|--------|-----------|-------|--------|--------|---------------------------|
+| 8.3.5 | Violencia física/psicológica ejercida por madre/padre | 41.5% | 38.7% | 45.9% | Comparable con ajustes 2024 |
+| 8.3.8 | Violencia escolar (víctimas) | 50.1% | 47.4% | 44.0% | Comparable, revisar agresor de otro colegio |
+| 8.3.10 | Niñas/os que ejercen violencia escolar | N.D. | N.D. | 13.2% | No comparable |
+
+---
+
+## Módulo CRS04 – Adolescentes de 12 a 17 años
+
+| Código | Indicador | 2015 | 2019 | 2024 | Nota de comparabilidad |
+|--------|-----------|-------|--------|--------|---------------------------|
+| 8.2.7 | Violencia sexual (agresor no pareja) | N.D. | N.D. | 22.4% | No comparable |
+| 8.2.11 | Violencia sexual antes de los 12 años | N.D. | N.D. | 15.2% | No comparable |
+| 8.2.13 | Acoso sexual (agresor no pareja) | N.D. | N.D. | 21.7% | No comparable |
+| 8.3.6 | Violencia física/psicológica ejercida por madre/padre | 38.9% | 40.5% | 43.6% | Comparable con ajustes 2024 |
+| 8.3.9 | Adolescentes víctimas de violencia escolar | 47.4% | 44.7% | 45.9% | Comparable con ajustes 2024 |
+| 8.3.11 | Adolescentes hombres que ejercen violencia escolar | N.D. | N.D. | 19.0% | No comparable |
+
 
 ---
 
