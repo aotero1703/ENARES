@@ -67,13 +67,14 @@
 
 ---
 
-## ⚙️ Cómo usar las sintaxis
+## 🚀 Guía rápida de uso
 
-1. Abrir **Stata 16+**.  
-2. Configurar la ruta de trabajo (`global root`).  
-3. Ejecutar el archivo `.do` del módulo CRS correspondiente.  
-4. Los resultados se guardan automáticamente en `/outputs/`.  
-5. Puedes combinar las bases para generar tablas o dashboards.
+1. Abra **Stata 16** o una versión posterior.
+2. Descargue los microdatos necesarios desde el **Portal de Microdatos del INEI**.
+3. Defina la ruta de trabajo actualizando la macro global `root`.
+4. Ejecute el archivo `.do` correspondiente al módulo **CRS** de interés. El flujo de trabajo generará automáticamente la estructura de carpetas requerida.
+5. Todos los productos generados se almacenarán en la carpeta `/outputs/`.
+6. Los resultados podrán utilizarse para construir tableros de indicadores, elaborar reportes o realizar análisis adicionales.
 
 ---
 
