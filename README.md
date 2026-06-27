@@ -202,8 +202,6 @@ If you use this repository in research, teaching or policy analysis, please cite
 
 **Alexandra Otero Flores**
 
-Economist | Government Analytics Fellow
-
 - 💼 LinkedIn: https://www.linkedin.com/in/alexandra-otero-flores-31937214a/
 - ✉️ Email: oterof.alexandra@pucp.edu.pe
 
