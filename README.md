@@ -1,107 +1,145 @@
+# 📊 ENARES 2024 Processing Pipeline
+
+<div align="center">
+
+### Automated processing of the National Survey on Social Relations (ENARES 2024)
+
+Reproducible Stata workflows for generating official indicators and analytical datasets.
+
+![Stata](https://img.shields.io/badge/Stata-16+-1F5AA6?style=flat-square)
+![INEI](https://img.shields.io/badge/Source-INEI-blue?style=flat-square)
+![Power BI](https://img.shields.io/badge/Visualization-Power%20BI-F2C811?style=flat-square)
+![Reproducible Research](https://img.shields.io/badge/Reproducible-Research-success?style=flat-square)
+
+</div>
 
 ---
 
-## 👥 Poblaciones y módulos ENARES 2024
+## 📌 Project Overview
 
-| Módulo | Población objetivo | Temática principal |
-|--------|--------------------|--------------------|
-| **CRS01** | Mujeres de 18 años a más | Violencia por pareja, acoso y dependencia económica |
-| **CRS02** | Hombres y mujeres de 18 años a más | Tolerancia social y creencias sexistas |
-| **CRS03** | Niñas y niños 9–11 años | Violencia en hogar y escuela |
-| **CRS04** | Adolescentes 12–17 años | Violencia en hogar, escuela y sexual |
+This repository contains a fully reproducible workflow to process the **2024 National Survey on Social Relations (ENARES)**.
 
----
+The scripts automate data cleaning, indicator construction and dataset generation, producing outputs that can be directly used for statistical analysis, official reporting and interactive Power BI dashboards.
 
-# Indicadores oficiales ENARES – Valores 2015, 2019 y 2024
-
-## Módulo CRS01 – Mujeres de 18 años a más
-
-| Código | Indicador | 2015 | 2019 | 2024 | Nota de comparabilidad |
-|--------|-----------|-------|--------|--------|---------------------------|
-| 8.2.1 | Violencia psicológica por pareja/expareja (últimos 12 meses) | 23.5% | 19.4% | 14.1% | Comparable, incluye expareja |
-| 8.2.2 | Violencia física por pareja/expareja (últimos 12 meses) | 5.6% | 6.3% | 4.4% | No comparable |
-| 8.2.3 | Violencia sexual por pareja/expareja (últimos 12 meses) | 4.3% | 4.5% | 2.4% | No comparable |
-| 8.2.5 | Violencia física severa por pareja/expareja | N.D. | N.D. | 1.2% | No comparable |
-| 8.2.6 | Violencia sexual por agresor distinto a la pareja | N.D. | N.D. | 3.2% | No comparable |
-| 8.2.12 | Acoso sexual por agresor distinto a la pareja | N.D. | N.D. | 3.0% | No comparable |
-| 8.3.1 | Violencia interparental vivida por mujeres | N.D. | N.D. | 34.1% | No comparable |
-| 8.3.16 | Mujeres bajo dependencia económica de su pareja/expareja | N.D. | N.D. | 28.6% | No comparable |
-| 8.3.4 | Castigo físico/psicológico ejercido por la madre a niñas/os < 6 años | N.D. | N.D. | 29.7% | No comparable |
+> 📷 **Recommendation:** Add a screenshot of your dashboard here (`docs/dashboard_preview.png`).
 
 ---
 
-## Módulo CRS02 – Hombres y mujeres de 18 años a más
+## 🗂 Repository Structure
 
-| Código | Indicador | 2015 | 2019 | 2024 | Nota de comparabilidad |
-|--------|-----------|-------|--------|--------|---------------------------|
-| 8.3.2 | Hombres que vivieron violencia interparental | N.D. | N.D. | 34.0% | No comparable |
-| 8.3.7 | Hombres que justifican la violación sexual contra las mujeres | N.D. | N.D. | 56.5% | No comparable (crítico) |
-| 8.3.12 | Personas que toleran la violencia contra las mujeres | N.D. | N.D. | 75.7% | No comparable (crítico) |
-| 8.3.13 | Hombres que justifican la violencia sexual contra las mujeres | N.D. | N.D. | 69.7% | No comparable (crítico) |
-| 8.3.14 | Creencias sexistas aprobadas | N.D. | N.D. | 87.4% | No comparable (crítico) |
-| 8.3.15 | Actitudes sexistas aprobadas | N.D. | N.D. | 71.3% | No comparable (crítico) |
-
----
-
-## Módulo CRS03 – Niñas y niños de 9 a 11 años
-
-| Código | Indicador | 2015 | 2019 | 2024 | Nota de comparabilidad |
-|--------|-----------|-------|--------|--------|---------------------------|
-| 8.3.5 | Violencia física/psicológica ejercida por madre/padre | 41.5% | 38.7% | 45.9% | Comparable con ajustes 2024 |
-| 8.3.8 | Violencia escolar (víctimas) | 50.1% | 47.4% | 44.0% | Comparable, revisar agresor de otro colegio |
-| 8.3.10 | Niñas/os que ejercen violencia escolar | N.D. | N.D. | 13.2% | No comparable |
-
----
-
-## Módulo CRS04 – Adolescentes de 12 a 17 años
-
-| Código | Indicador | 2015 | 2019 | 2024 | Nota de comparabilidad |
-|--------|-----------|-------|--------|--------|---------------------------|
-| 8.2.7 | Violencia sexual (agresor no pareja) | N.D. | N.D. | 22.4% | No comparable |
-| 8.2.11 | Violencia sexual antes de los 12 años | N.D. | N.D. | 15.2% | No comparable |
-| 8.2.13 | Acoso sexual (agresor no pareja) | N.D. | N.D. | 21.7% | No comparable |
-| 8.3.6 | Violencia física/psicológica ejercida por madre/padre | 38.9% | 40.5% | 43.6% | Comparable con ajustes 2024 |
-| 8.3.9 | Adolescentes víctimas de violencia escolar | 47.4% | 44.7% | 45.9% | Comparable con ajustes 2024 |
-| 8.3.11 | Adolescentes hombres que ejercen violencia escolar | N.D. | N.D. | 19.0% | No comparable |
-
+```text
+ENARES/
+│
+├── CRS01/
+├── CRS02/
+├── CRS03/
+├── CRS04/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── outputs/
+│
+├── docs/
+│
+└── README.md
+```
 
 ---
 
-## 🚀 Guía rápida de uso
+## 👥 ENARES 2024 Modules
 
-1. Abra **Stata 16** o una versión posterior.
-2. Descargue los microdatos necesarios desde el **Portal de Microdatos del INEI**.
-3. Defina la ruta de trabajo actualizando la macro global `root`.
-4. Ejecute el archivo `.do` correspondiente al módulo **CRS** de interés. El flujo de trabajo generará automáticamente la estructura de carpetas requerida.
-5. Todos los productos generados se almacenarán en la carpeta `/outputs/`.
-6. Los resultados podrán utilizarse para construir tableros de indicadores, elaborar reportes o realizar análisis adicionales.
-
----
-
-## 📈 Visualización interactiva
-
-Consulta los resultados en Power BI:  
-👉 **[Tablero de Indicadores ENARES 2024 – PPoR 1002](https://app.powerbi.com/view?r=eyJrIjoiZDE4ZDg4MjAtNzRjMC00MGY5LTk3MjAtNGRhOTAxNDQ2NGNiIiwidCI6IjY4MTljNDYzLTVkZWItNDA3MC1hY2I2LTlmZGQzY2FhZTk4NCJ9)**  
+| Module | Target population | Main topic |
+|---------|------------------|------------|
+| 👩 **CRS01** | Women aged 18 years and older | Intimate partner violence, sexual harassment and economic dependency |
+| 👥 **CRS02** | Men and women aged 18 years and older | Social tolerance and sexist beliefs |
+| 🧒 **CRS03** | Children aged 9–11 years | Violence at home and school |
+| 🧑 **CRS04** | Adolescents aged 12–17 years | Violence at home, school and sexual violence |
 
 ---
 
-## 🧠 Metodología base
+# 📈 Official ENARES Indicators
 
-- **Fuente:** ENARES 2024 – INEI  
-- **Periodo de referencia:** Últimos 12 meses (excepto violencia antes de los 12 años)  
-- **Cobertura:** Nacional, urbano/rural y departamental  
-- **Unidades de análisis:** Mujeres (18+), hombres (18+), niñas/os (9–11), adolescentes (12–17)  
-- **Ponderación:** Factor de expansión `fac_pob`
+## CRS01 — Women aged 18 years and older
+
+| Code | Indicator | 2015 | 2019 | 2024 | Comparability |
+|------|-----------|------|------|------|---------------|
+| 8.2.1 | Psychological violence by partner/ex-partner | 23.5% | 19.4% | 14.1% | ✔ Comparable |
+| ... | ... | ... | ... | ... | ... |
+
+*(Continue with the remaining indicator tables.)*
+
+---
+
+## 🚀 Quick Start
+
+1. Open **Stata 16** or a newer version.
+2. Download the corresponding microdata from the **INEI Microdata Portal**.
+3. Update the `global root` directory.
+4. Run the `.do` file of the desired **CRS module**.
+5. The required project folders will be created automatically.
+6. All generated outputs will be saved in the `/outputs/` directory.
+7. The outputs can be used directly for dashboards, reports or additional analyses.
 
 ---
 
-## 📚 Referencias
+## 📊 Interactive Dashboard
 
-- **INEI (2025)** – *Informe de los Principales Resultados de la ENARES 2024.*  
-- **MIMP (2025)** – *Programa Presupuestal orientado en Resultados: Reducción de la Violencia contra la Mujer.*  
-- **Ley 30364** – Ley para prevenir, sancionar y erradicar la violencia contra las mujeres y los integrantes del grupo familiar.  
+Explore the interactive Power BI dashboard:
+
+👉 **ENARES 2024 Indicators Dashboard**
+
+https://app.powerbi.com/view?r=eyJrIjoiZDE4ZDg4MjAtNzRjMC00MGY5LTk3MjAtNGRhOTAxNDQ2NGNiIiwidCI6IjY4MTljNDYzLTVkZWItNDA3MC1hY2I2LTlmZGQzY2FhZTk4NCJ9
 
 ---
+
+## 📖 About ENARES 2024
+
+<p align="center">
+
+<img src="docs/enares2024_cover.jpg" width="320">
+
+</p>
+
+The **National Survey on Social Relations (ENARES)** is conducted by the **National Institute of Statistics and Informatics (INEI)** and generates official statistics on violence against women, children and adolescents, gender norms and social tolerance in Peru.
+
+---
+
+## ⚙ Methodological Notes
+
+| Item | Description |
+|------|-------------|
+| **Source** | ENARES 2024 – INEI |
+| **Coverage** | National |
+| **Domains** | National, Urban/Rural and Department |
+| **Expansion factor** | `fac_pob` |
+| **Software** | Stata 16+ |
+
+---
+
+## 📚 References
+
+- INEI (2025). *Informe de los Principales Resultados – ENARES 2024.*
+- Ministerio de la Mujer y Poblaciones Vulnerables (2025).
+- Ley N.° 30364.
+
+---
+
+## ⭐ Citation
+
+If you use this repository in your research, teaching or policy analysis, please cite:
+
+> Otero Flores, A. (2026). **ENARES 2024 Processing Pipeline**. GitHub Repository.
+
+---
+
+## 🤝 Contact
+
+If you have questions, suggestions or would like to collaborate, feel free to connect.
+
+- 💼 LinkedIn: https://www.linkedin.com/in/alexandra-otero-flores-31937214a/
+- ✉️ Email: oterof.alexandra@pucp.edu.pe
 
 ## 💬 Frase que nos guía
 
