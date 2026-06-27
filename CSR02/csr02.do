@@ -1,7 +1,7 @@
 /**************************************************************************
- Proyecto : ENARES – Observatorio Nacional de Violencia
+ Proyecto : ENARES 
  Autora   : Alexandra Otero
- Fecha    : 09/08/25
+ Fecha    : 27(06/2026
  CUESTIONARIO CSR02 - HOMBRES Y MUJERES
  Indicadores: 8.3.2, 8.3.7, 8.3.12, 8.3.13, 8.3.14, 8.3.15
 **************************************************************************/
@@ -16,11 +16,8 @@ set maxvar 10000
 display "`c(username)'"
 
 * Detectar el usuario activo y asignar directorio base
-if "`c(username)'" == "dpvlv12" {
-    global root "G:\Mi unidad\MIMP\Observatorio Nacional de Violencia\ENARES"
-}
 else if "`c(username)'" == "Alexandra Otero" {
-    global root "G:\Mi unidad\MIMP\Observatorio Nacional de Violencia\ENARES"
+    global root "G:\Mi unidad\ENARES"
 }
 
 display "Directorio de trabajo: $root"
