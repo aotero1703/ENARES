@@ -2,9 +2,9 @@
 
 <div align="center">
 
-### Automated workflows for processing the National Survey on Social Relations (ENARES 2024)
+### Reproducible Stata workflow for processing the National Survey on Social Relations (ENARES 2024)
 
-*Reproducible Stata scripts for generating official indicators, analytical datasets and Power BI-ready outputs.*
+*From raw microdata to official indicators, analytical datasets and Power BI-ready outputs.*
 
 </div>
 
