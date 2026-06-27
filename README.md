@@ -5,8 +5,8 @@
 
 | Módulo | Población objetivo | Temática principal |
 |--------|--------------------|--------------------|
-| **CRS01** | Mujeres de 18+ años | Violencia por pareja, acoso y dependencia económica |
-| **CRS02** | Hombres y mujeres de 18+ años | Tolerancia social y creencias sexistas |
+| **CRS01** | Mujeres de 18 años a más | Violencia por pareja, acoso y dependencia económica |
+| **CRS02** | Hombres y mujeres de 18 años a más | Tolerancia social y creencias sexistas |
 | **CRS03** | Niñas y niños 9–11 años | Violencia en hogar y escuela |
 | **CRS04** | Adolescentes 12–17 años | Violencia en hogar, escuela y sexual |
 
