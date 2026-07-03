@@ -1,14 +1,12 @@
 /**************************************************************************
  Proyecto : ENARES – Observatorio Nacional de Violencia (CSR01)
  Autora   : Alexandra Otero
- Fecha    : 09/11/2025
+ Fecha    : 26/06/2026
  Versión  : CONSOLIDADO — Base principal (mujeres) + Base niños 8.3.4
  Notas    : - Rutas de trabajo en ENARES/PPoR (dofiles/outputs)
-           - Data se mantiene en ENARES/Data/2024/CSR01
-           - Guarda dos .dta:
+            - Guarda dos .dta:
                1) $output/base_indicadores_csr01_mujeres_2024.dta
                2) $output/base_indicadores_csr01_ninos72m_2024.dta
-           - CORRECCIÓN APLICADA: Indicador 8.3.16 (Dependencia económica)
 **************************************************************************/
 
 *========================================================================*
@@ -19,7 +17,7 @@ set more off
 set maxvar 10000
 version 16
 
-gl root "SE COLOCA LA RUTA"
+gl root "SE COLOCA LA RUTA" //coloca la ruta de tu directorio en donde irán todas las carpetas
 
 * Carpeta base PPoR (dofiles/outputs)
 global ppor    "$root/PPoR"
